@@ -26,10 +26,10 @@ windowTitle := "Joystick-Overlay"
 
 ;///////////////////////////////////////////////////////////////////////////////
 
-Gui, Show, W200 H200 X%windowX% Y%windowY%, %windowTitle%
+Gui, Show, W100 H100 X%windowX% Y%windowY%, %windowTitle%
 
-W:=200
-H:=200
+W:=100
+H:=100
 
 SetTimer, Disp, off
 DllCall("DeleteObject", "UInt", hPen)
